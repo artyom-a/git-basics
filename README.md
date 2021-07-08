@@ -65,11 +65,8 @@
 
 **git stash clear** - Remove all stashes.
 
-## Utility commands
 
-**git status** - shows status of current branch. Unstaged files etc.
-
-**git checkout <file_name>** - revert changes to unstaged file. (accepts folders, path, all)
+## Git log
   
 **git log** - shows commit log, all commits in repository shown.
 
@@ -78,3 +75,11 @@
 **git log -n** - where n - number of commits to show (shows last commits to the branch)
 
 **git log --skip=n** - where n - number of commits to skip (skips N of latests commits, git log is a stack)
+  
+  
+## Utility commands
+
+**git status** - shows status of current branch. Unstaged files etc.
+
+**git checkout <file_name>** - revert changes to unstaged file. (accepts folders, path, all)
+  
