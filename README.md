@@ -70,3 +70,11 @@
 **git status** - shows status of current branch. Unstaged files etc.
 
 **git checkout <file_name>** - revert changes to unstaged file. (accepts folders, path, all)
+  
+**git log** - shows commit log, all commits in repository shown.
+
+**git log --pretty=online** - shows commits in log in one line, skipping additional information
+
+**git log -n** - where n - number of commits to show (shows last commits to the branch)
+
+**git log --skip=n** - where n - number of commits to skip (skips N of latests commits, git log is a stack)
